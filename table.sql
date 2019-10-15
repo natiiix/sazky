@@ -1,0 +1,10 @@
+CREATE TABLE "sazky" (
+	"id" INTEGER PRIMARY KEY AUTOINCREMENT,
+	"jmeno" TEXT NOT NULL,
+	"kategorie"	TEXT,
+	"typ" TEXT,
+	"kurz" REAL NOT NULL,
+	"min_kurz" REAL,
+	"vyhra" BOOLEAN,
+	"datum" DATETIME DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
